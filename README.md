@@ -1,2 +1,2 @@
-# rodo
+# Rodo
 My github website
