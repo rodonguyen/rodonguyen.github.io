@@ -28,9 +28,10 @@ hr {
     border: 1px solid rgb(63, 63, 63);
 }
 
-.bottom {
+.quote {
     color: antiquewhite;
+    font-size: 10px;
     position: absolute;
     bottom: 100px;
-    left: 100;
+    text-align: center;
 }
