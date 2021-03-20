@@ -1,0 +1,36 @@
+body {
+    /* color: rgb(34, 34, 34); */
+    /* background-color: rgb(224, 237, 245);  */
+    color: rgb(216, 216, 216);
+    background-color: rgb(40,44,52,255);
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    font-family: 'Nunito Sans', sans-serif; 
+}
+
+a:link {
+    color: rgb(223, 83, 33);    
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(185, 66, 23);    
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(250, 114, 40);
+    background-color: transparent;
+    text-decoration: underline;
+}
+hr {
+    border: 1px solid rgb(63, 63, 63);
+}
+
+.bottom {
+    color: antiquewhite;
+    position: absolute;
+    bottom: 100px;
+    left: 100;
+}
