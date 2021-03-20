@@ -1,12 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Rodo Nguyen</title>
+    <title>Rodo</title>
+    <link rel="stylesheet" type='text/css' href="../src/styles.css">
 </head>
+
+
 <body>
 
-<h1 style="font-family: 'Nunito Sans', sans-serif">Rodo Nguyen</h1>
-<p style="font-family: 'Nunito Sans', sans-serif">In development :)</p>
+    <h1>RODO NGUYEN</h1>
+    <p style="font-size:x-small">In development :)</p>
+    <hr>
+    <br>
+    <h3>My social accounts:</h3>
 
-</body>
+    <ul>
+        <li>
+            My Facebook blog page <a href="https://www.facebook.com/rodojournal/" target="_blank" rel="noopener noreferrer">Rodo</a> 
+            <!-- <button onclick="myFunction()">Copy</button> -->
+        </li>
+        <li>
+            Github <a href="https://github.com/rodonguyen" target="_blank" rel="noopener noreferrer">rodonguyen</a>
+        </li>
+        <li>
+            Linkedin <a href="https://www.linkedin.com/in/rodonguyen/" target="_blank" rel="noopener noreferrer">rodonguyen</a>
+        </li>
+        <li>
+            Youtube <a href="https://www.youtube.com/channel/UCKw4Y1A5rsTqhA77rb4FLTA" target="_blank" rel="noopener noreferrer">Rodo</a>
+        </li>
+        <li>
+            Instagram <a href="https://www.instagram.com/rodo.nguyen/" target="_blank" rel="noopener noreferrer">rodo.nguyen</a>
+        </li>
+        <li>
+            Email <a href="mailto:rodonguyendd@gmail.com" target="_blank" rel="noopener noreferrer">rodonguyendd@gmail.com</a>
+        </li>
+    </p>
+
+
+    <script type="text/javascript">
+        function myFunction() {
+            var copyText = document.getElementById("myInput");
+            copyText.select("https://www.facebook.com/rodojournal/");
+            copyText.setSelectionRange(0, 99999)
+            document.execCommand("copy");
+            alert("Copied the text: " + copyText.value);
+        }
+    </script>
+
+    <div class="bottom">
+        <blockquote >
+            <em>"Whenever doubt arises, it's a calling to do some extra work."</em>
+        </blockquote>
+    </div>
+
+</body> 
 </html>
+
+<!-- Todo features:
+    Will replace hyperlink with small icon
+    Copy text button for social links
+    Add profile pic anchored on the right
+    Make quote change each day (js?)
+-->
