@@ -14,11 +14,7 @@ a:link {
     background-color: transparent;
     text-decoration: none;
 }
-a:visited {
-    color: rgb(185, 66, 23);    
-    background-color: transparent;
-    text-decoration: none;
-}
+
 a:hover {
     color: rgb(250, 114, 40);
     background-color: transparent;
@@ -30,7 +26,7 @@ hr {
 
 .quote {
     color: antiquewhite;
-    font-size: 10px;
+    font-size: 15px;
     position: absolute;
     bottom: 100px;
     text-align: center;
