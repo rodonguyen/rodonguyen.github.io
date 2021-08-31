@@ -1,7 +1,7 @@
 body {
     /* color: rgb(34, 34, 34); */
     /* background-color: rgb(224, 237, 245);  */
-    font-size: 22px;
+    font-size: 18px;
     color: rgb(216, 216, 216);
     background-color: rgb(40,44,52,255);
     margin-left: 100px;
@@ -38,8 +38,8 @@ hr {
 
 .quote {
     color: antiquewhite;
-    font-size: 20px;
+    font-size: 15px;
     position: absolute;
-    bottom: 100px;
+    bottom: 20px;
     text-align: center;
 }
