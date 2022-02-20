@@ -3,7 +3,7 @@ body {
     /* background-color: rgb(224, 237, 245);  */
     font-size: 18px;
     color: rgb(238, 238, 238);
-    background-color: rgb(40,44,52,255);
+    background-color: #061f1c;
     /* margin-top: 50px; */
     margin: 0px;
     font-family: 'Nunito Sans', sans-serif; 
@@ -28,12 +28,15 @@ a:link {
     color: rgb(192, 206, 255);    
     background-color: transparent;
     text-decoration: none;
+    transition: 0.2s;
 }
 
 a:hover {
     color: rgb(162, 192, 255);
     background-color: transparent;
     text-decoration: underline;
+    transition: 0.2s;
+    font-size: 19px;
 }
 
 a:visited {
@@ -58,6 +61,7 @@ section {
     padding-bottom: 15px;
 }
 
+
 .wave {
     position: absolute;
     top: 0;
@@ -66,22 +70,45 @@ section {
     overflow: hidden;
     line-height: 0;
 }
-
 .wave svg {
     position: relative;
     display: block;
     width: calc(103% + 1.3px);
     height: 52px;
 }
-
-.wave .shape-fill {
+.wave .shape-fill-black {
     fill: #001220;
 }
+
+
+
+.wave2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.3px);
+    height: 60px;
+    transform: rotateY(180deg);
+}
+.wave2 .shape-fill {
+    fill: #E44031;
+}
+.wave2 .shape-fill-red {
+    fill: #e44031;
+}
+
+
 
 .toppad {
     padding-top: 4em;
 }
-
 
 .spacer {
     aspect-ratio: 960/60;
@@ -89,6 +116,7 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
 }
 
 .layer1 {
@@ -101,11 +129,11 @@ section {
 }
 
 .red {
-    background: #dd3f31;
+    background: #e44031;
 }
 
-.pink {
-    background: #ff0066;
+.darkgray {
+    background: #061f1c;
     overflow: hidden;
 }
 
@@ -113,11 +141,34 @@ section {
     background: #001220;
 }
 
+table {
+    padding: 2em 0em;
+    margin: 0em 0em;
+}
+
+td {
+    width: 1500em;
+    text-align: center;
+}
 
 .quote {
     color: antiquewhite;
-    font-size: 15px;
-    position: absolute;
-    bottom: 20px;
     text-align: center;
+    font-size: 15px;
+    bottom: 2em;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    background: #f0f0f0;
+    width: 100%;
+}
+
+.bottom1 {
+    height: 210px;
+    display: table-cell;
+    vertical-align: bottom;
+    padding-bottom: 0;
 }
