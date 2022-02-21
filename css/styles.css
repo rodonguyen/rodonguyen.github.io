@@ -14,10 +14,15 @@ h1 {
     padding: 0.5em 2.8em;
     margin: 0em;
     background-color: #013A91;
+    font-weight: bold;
 }
 
 h3 {
     margin: 0em 0em;
+}
+p.intro {
+    font-size: small;
+    margin-bottom: 0.6em;
 }
 
 ul {
@@ -30,25 +35,46 @@ a:link {
     text-decoration: none;
     transition: 0.2s;
 }
-
+a:visited {
+    color: rgb(253, 234, 171);    
+    background-color: transparent;
+    text-decoration: none;
+}
 a:hover {
-    color: rgb(162, 192, 255);
+    color: rgb(158, 181, 255);
     background-color: transparent;
     text-decoration: underline;
     transition: 0.2s;
     font-size: 19px;
 }
 
-a:visited {
-    color: rgb(162, 192, 255);    
+a.viewicon:link {
+    color: rgb(192, 206, 255);    
+    background-color: transparent;
+    text-decoration: none;
+    transition: 0.2s;
+}
+a.viewicon:visited {
+    color: rgb(255, 229, 144);    
     background-color: transparent;
     text-decoration: none;
 }
+a.viewicon:hover {
+    color: rgb(81, 122, 255);
+    background-color: transparent;
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 20px;
+}
+
+
 
 hr {
     border: 1px solid rgb(63, 63, 63);
     margin-top: 3em;
 }
+
+
 
 
 section {
@@ -111,16 +137,15 @@ section {
 }
 
 .spacer {
-    aspect-ratio: 960/60;
+    aspect-ratio: 960/65;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
 }
-
-.layer1 {
-    background-image: url('layered.svg');
+.layered-wave-1 {
+    background-image: url('layered-wave.svg');
 }
 
 
@@ -167,8 +192,9 @@ td {
 }
 
 .bottom1 {
-    height: 210px;
+    height: 140px;
     display: table-cell;
     vertical-align: bottom;
-    padding-bottom: 0;
+    margin-bottom: 1em;
 }
+

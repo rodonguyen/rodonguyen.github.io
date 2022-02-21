@@ -1,2 +1,1 @@
-# Rodo
-My github landing page
+# My website - Rodo Nguyen
