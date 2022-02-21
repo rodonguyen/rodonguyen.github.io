@@ -1,14 +1,10 @@
 body {
-    /* color: rgb(34, 34, 34); */
-    /* background-color: rgb(224, 237, 245);  */
     font-size: 18px;
     color: rgb(238, 238, 238);
     background-color: #061f1c;
-    /* margin-top: 50px; */
     margin: 0px;
     font-family: 'Nunito Sans', sans-serif; 
 }
-
 h1 {
     font-size: 3.5em;
     padding: 0.5em 2.8em;
@@ -16,18 +12,21 @@ h1 {
     background-color: #013A91;
     font-weight: bold;
 }
-
 h3 {
     margin: 0em 0em;
 }
 p.intro {
-    font-size: small;
+    font-size: 15px;
     margin-bottom: 0.6em;
 }
+
+
 
 ul {
     margin: 1em 1em;
 }
+
+
 
 a:link {
     color: rgb(192, 206, 255);    
@@ -142,10 +141,9 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 .layered-wave-1 {
-    background-image: url('layered-wave.svg');
+    background-image: url('layered-wave-1.svg');
 }
 
 
