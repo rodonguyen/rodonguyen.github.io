@@ -137,8 +137,8 @@ section {
 }
 
 .spacer {
-    aspect-ratio: 960/65;
-    width: 100%;
+    aspect-ratio: 910/70;
+    width: 105%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
