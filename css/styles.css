@@ -137,11 +137,11 @@ section {
 }
 
 .spacer {
-    aspect-ratio: 910/70;
-    width: 105%;
+    aspect-ratio: 900/70;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size:contain;
 }
 .layered-wave-1 {
     background-image: url('layered-wave-1.svg');
