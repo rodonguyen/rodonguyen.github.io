@@ -1,13 +1,13 @@
 body {
-    font-size: 18px;
+    font-size: medium;
     color: rgb(238, 238, 238);
-    background-color: #061f1c;
+    background-color: #1E293B;
     margin: 0px;
     font-family: 'Nunito Sans', sans-serif; 
 }
 h1 {
-    font-size: 3.5em;
-    padding: 0.5em 2.8em;
+    font-size: 3rem;
+    padding: 2rem 0 2rem 10%;
     margin: 0em;
     background-color: #013A91;
     font-weight: bold;
@@ -16,8 +16,12 @@ h3 {
     margin: 0em 0em;
 }
 p.intro {
-    font-size: 15px;
+    font-size: small;
     margin-bottom: 0.6em;
+}
+div.content{
+    margin: auto auto;
+    max-width: 1024px;
 }
 
 
@@ -77,7 +81,7 @@ hr {
 
 
 section {
-    padding: 0em 10em;
+    padding: 0em 2rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -87,7 +91,7 @@ section {
 }
 
 
-.wave {
+.wave1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -95,14 +99,14 @@ section {
     overflow: hidden;
     line-height: 0;
 }
-.wave svg {
+.wave1 svg {
     position: relative;
     display: block;
     width: calc(103% + 1.3px);
     height: 52px;
 }
-.wave .shape-fill-black {
-    fill: #001220;
+.wave1 .shape-fill-black {
+    fill: #1E293B;
 }
 
 
@@ -121,9 +125,6 @@ section {
     width: calc(140% + 1.3px);
     height: 60px;
     transform: rotateY(180deg);
-}
-.wave2 .shape-fill {
-    fill: #E44031;
 }
 .wave2 .shape-fill-red {
     fill: #e44031;
@@ -155,22 +156,12 @@ section {
     background: #e44031;
 }
 
-.darkgray {
-    background: #061f1c;
-    overflow: hidden;
-}
-
-.dark {
-    background: #001220;
-}
-
 table {
-    padding: 2em 0em;
-    margin: 0em 0em;
+    padding: 2em 0;
 }
 
 td {
-    width: 1500em;
+    width: 100rem;
     text-align: center;
 }
 
@@ -178,20 +169,19 @@ td {
     color: antiquewhite;
     text-align: center;
     font-size: 15px;
-    bottom: 2em;
 }
-
+/* 
 #footer {
     position: absolute;
     bottom: 0;
     height: 20px;
     background: #f0f0f0;
     width: 100%;
-}
+} */
 
 .bottom1 {
     height: 140px;
-    display: table-cell;
+    /* display: table-cell; */
     vertical-align: bottom;
     margin-bottom: 1em;
 }
