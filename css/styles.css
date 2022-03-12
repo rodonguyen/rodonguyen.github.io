@@ -156,6 +156,10 @@ section {
     background: #e44031;
 }
 
+.yellow_text {
+    color: rgb(253, 234, 171);  
+}
+
 table {
     padding: 2em 0;
 }
